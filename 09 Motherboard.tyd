@@ -1,0 +1,282 @@
+SoftwareType
+	{
+	Name			"Motherboard"
+	Category		Hardware
+	Description		"The main board for a PC, or server."				
+	Random			0
+	OptimalDevTime	48
+	SubmarketNames	[ Aesthetics; Upgradability; Functionality ]
+	NameGenerator	Motherboard
+	Popularity		0.9
+	Retention	48
+	TimeScale	1
+	Iterative	1
+	IdealPrice	150
+	InHouse		True
+	Features			
+		[
+			{
+			Name		System
+			Spec		System
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 3; 3 ]
+			Features
+				[
+					{
+					Name		"CPU Socket"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Dual CPU Sockets"
+					Unlock		2000
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 3 ]
+					}
+					{
+					Name		"Parallel ATA"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"SATA 1"
+					Unlock		2000
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"SATA 2"
+					Unlock		2003
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"SATA 3"
+					Unlock		2010
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Graphics Card Slot"
+					Unlock		1995
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"SLI Capability"
+					Unlock		2000
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Serial Connector"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"DRAM"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"DDR RAM"
+					Unlock		2000
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"DDR2 RAM"
+					Unlock		2005
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"DDR3 RAM"
+					Unlock		2010
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"DDR4 RAM"
+					Unlock		2015
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"PS/2 Port"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"USB Ports"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"USB-C Ports"
+					Unlock		2015
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Headphone/Speaker Jack"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"CGA Port"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"VGA Port"
+					Unlock		1990
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"HDMI Port"
+					Unlock		2000
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"DisplayPort Port"
+					Unlock		2010
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+				]
+			}
+			{
+			Name		Network
+			Spec		Network
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 3; 3 ]
+			Features
+				[
+					{
+					Name		"Onboard NIC Card"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Onboard Wireless NIC Card"
+					Unlock		1995
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+				]
+			}
+			{
+			Name		Aesthetics
+			Spec		2D
+			DevTime		4
+			CodeArt		0
+			Submarkets	[ 1; 0; 0 ]
+			Features
+				[
+					{
+					Name		"Different Coloured board"
+					Description "What the hell is this? This motherboard isn't blue or green!"
+					DevTime		2
+					Level		1
+					CodeArt		0
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"RGB"
+					Description	"Because why not"
+					Unlock		2010
+					DevTime		4
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Status Lights"
+					Description	"Lets you know what the Status of the motherboard is."
+					DevTime		4
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 0; 0 ]
+					}
+				]
+			}
+			{
+			Name		Audio
+			Spec		Audio
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 3; 3 ]
+			Features
+				[
+					{
+					Name		"Onboard Speaker"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Sound Card Slot"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+				]
+			}
+		]
+	}

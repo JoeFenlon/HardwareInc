@@ -1,0 +1,164 @@
+SoftwareType
+	{
+	Name			"Processor"
+	Category		Hardware
+	Description		"The Main processing unit of a PC!"
+	Popularity		0.8
+	Retention		36
+	TimeScale		1
+	Iterative		1
+	IdealPrice		100
+	Submarkets	[ 1; 2; 2]				
+	Random			0.2
+	OptimalDevTime	36
+	SubmarketNames	[ Basic Tasks; Video Editing; Gaming ]
+	NameGenerator	Processor
+	InHouse			True
+	Features			
+		[
+			{
+			Name		"System"
+			Spec		System
+			DevTime		8
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"32-Bit"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"Single Core"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"64-Bit"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 2; 2 ]
+					Unlock 2000
+					}
+					{
+					Name		"Dual-Core"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					Unlock 2005
+					}
+					{
+					Name		"Quad-Core"
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					Unlock 2007
+					}
+					{
+					Name		"Six-Core"
+					DevTime		7
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					Unlock 2009
+					}
+					{
+					Name		"Eight-Core"
+					DevTime		10
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 4; 2 ]
+					Unlock 2010
+					}
+					{
+					Name		"4 MHz"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					}
+					{
+					Name		"40 MHz"
+					DevTime		5
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					Unlock		1988
+					}
+					{
+					Name		"133 MHz"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					Unlock 1995
+					}
+					{
+					Name		"1 GHz"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					Unlock		2000
+					}
+					{
+					Name		"3 GHz"
+					DevTime		10
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					Unlock		2010
+					}
+					{
+					Name		"6 GHz"
+					DevTime		12
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 4; 3 ]
+					Unlock		2020
+					}
+				]
+			}
+			{
+			Name		"Cooling"
+			Spec		2D
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 2; 2 ]
+			Optional	True
+			Features
+				[
+					{
+					Name		"Heat Sink"
+					DevTime		2
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 3; 3 ]
+					}
+					{
+					Name		"Thermal Paste"
+					DevTime		3
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 3; 3 ]
+					}
+					{
+					Name		"Water Cooling"
+					Unlock		2010
+					DevTime		6
+					Level		2
+					CodeArt		0
+					Submarkets	[ 1; 3; 3 ]
+					}
+				]
+			}	
+		]
+	}
