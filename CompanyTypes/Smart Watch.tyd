@@ -1,0 +1,14 @@
+CompanyType
+	{
+	Specialization		"Smart Watch"
+	PerYear				0.2
+	Min					2
+	Max					4
+	Types
+		[
+			{
+			Software	"Smart Watch"
+			Chance		1
+			}
+		]
+	}

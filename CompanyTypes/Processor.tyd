@@ -1,0 +1,14 @@
+CompanyType
+	{
+	Specialization		"Processor"
+	PerYear				0.2
+	Min					2
+	Max					4
+	Types
+		[
+			{
+			Software	"Processor"
+			Chance		1
+			}
+		]
+	}
