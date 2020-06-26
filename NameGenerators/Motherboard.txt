@@ -1,0 +1,33 @@
+[REPLACE]
+-start(base)
+-base(base2,base2,ext)
+GT
+GP
+X
+GTZ
+XTR
+PWR
+
+-base2(stop,stop,ext)
+100
+1000
+Ember
+REAPER
+Voxel
+FX
+AX
+Prime
+Tracer
+DigiVid
+Vizion
+Trident
+Wolf
+
+-ext(stop)
+ Pro
+ TI
+ 3D
+ PRI
+ XTI
+ Super
+ Tec
