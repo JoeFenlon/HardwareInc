@@ -1,0 +1,193 @@
+SoftwareType
+	{
+	Name			"IP Phone"
+	Category		Hardware
+	Popularity		0.8
+	Retention		48
+	TimeScale		1
+	Iterative		1
+	IdealPrice		80
+	Unlock			1995
+	Submarkets	[ 1; 1; 1]				
+	Random			0.2
+	OptimalDevTime	36	
+	SubmarketNames	[ Sound Quality; Functionality; Ease Of Use ]
+	NameGenerator	IP Phone
+	Features			
+		[
+			{
+			Name		System
+			Spec		System
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Numpad"
+					Description	"Pretty neccesary for a phone"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 2 ]
+					}
+					{
+					Name		"Redial Option"
+					Description	"Call them back"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 2 ]
+					}
+					{
+					Name		"Programmable Buttons"
+					Description	"Add speed dial buttons, whether it's for your boss or for the takeway down the road."
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					}
+					{
+					Name		"Voicemail"
+					Description	"For when you can't be bothered to answer the phone"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 3 ]
+					}
+					{
+					Name		"LED Screen"
+					Description	"A small informational LED screen"
+					Unlock		2005
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 1 ]
+					}
+					{
+					Name		"Touchscreen"
+					Description	"Who needs buttons anymore?"
+					Unlock		2015
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 2 ]
+					}
+					{
+					Name		"DECT"
+					Description	"Add a cordless headset to the phone"
+					Unlock		2000
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 2; 2; 1 ]
+					}
+					{
+					Name		"Bluetooth Capability"
+					Description	"Link a bluetooth headset or your phone."
+					Unlock		2005
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 2; 2; 1 ]
+					}
+					{
+					Name		"USB Port"
+					Description	"Ability to connect USB Devices"
+					Unlock		2000
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 1 ]
+					}
+					{
+					Name		"HotDesk Capability"
+					Description	"Allow anyone with an extension and pin to log into any phone"
+					Unlock		2000
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 1 ]
+					}
+				]
+			}
+			{
+			Name		Audio
+			Spec		Audio
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 2; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Speaker Button"
+					Description	"Output the audio through a built in speaker and annoy everyone in the office"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 2 ]
+					}
+					{
+					Name		"Volume Changer"
+					Description	"For when someone is shouting down the phone"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 1 ]
+					}
+					{
+					Name		"Mute Button"
+					Description	"Make sure you're on mute before you say that!"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 2 ]
+					}
+					{
+					Name		"Higher Quality Audio"
+					Description	"Sorry, what did you say?"
+					Unlock		1995
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 4; 1; 1 ]
+					}
+				]
+			}
+			{
+			Name		Network
+			Spec		Network
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"DHCP"
+					Description	"Allow the phone to get an IP Address automatically"
+					Unlock		1995
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 3 ]
+					}
+					{
+					Name		"Power over Ethernet (PoE)"
+					Description	"Power the phone just using an ethernet cable"
+					Unlock		2005
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 3 ]
+					}
+				]
+			}
+		]
+	}

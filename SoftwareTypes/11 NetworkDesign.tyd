@@ -1,0 +1,68 @@
+SoftwareType
+{
+	Name			"Network Design"
+	Category		Computing
+	Random			0
+	Popularity		0
+	Retention		1
+	IdealPrice		0
+	OptimalDevTime	1
+	SubmarketNames	[ 0; 0; 0 ]
+	Iterative		1
+	NameGenerator	None
+	OneClient		True
+	Features
+	[
+		Feature
+		{
+			Name		"Design"
+			Spec		Network
+			DevTime		1
+			CodeArt		1
+			Submarkets	0
+			Features
+			[
+				Feature
+				{
+					Name		"Planning"
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	0
+				}
+				Feature
+				{
+					Name		"Budgeting"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	0
+				}
+				Feature
+				{
+					Name		"Topology"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	0
+				}
+				Feature
+				{
+					Name		"Documentation"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	0
+				}
+				Feature
+				{
+					Name		"Configuration"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	0
+				}
+			]
+		}
+	]
+}
