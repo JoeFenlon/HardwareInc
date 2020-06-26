@@ -1,0 +1,27 @@
+[REPLACE]
+-start(base)
+-base(base2,base2,ext)
+Carbon
+Crystal
+Obsidian
+Diamond
+Emerald
+Rocket
+Sapphire
+Satellite
+Laser
+Phaser
+Z
+Inspire
+Design
+-base2(stop,stop,ext)
+Extreme
+Elite
+Air
+Dynamic
+Altitude
+-ext(stop)
+ Pro
+ XX
+ Silent
+ R
